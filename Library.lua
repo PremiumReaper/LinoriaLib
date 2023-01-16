@@ -636,7 +636,6 @@ do
 
                     ColorPicker.Hue = ((MouseY - MinY) / (MaxY - MinY));
                     ColorPicker:Display();
-
                     RenderStepped:Wait();
                 end;
 
@@ -1902,7 +1901,7 @@ do
             Library:AddToolTip(Info.Tooltip, DropdownOuter)
         end
 
-        local MAX_DROPDOWN_ITEMS = 8;
+        local MAX_DROPDOWN_ITEMS = 15;
 
         local ListOuter = Library:Create('Frame', {
             BorderColor3 = Color3.new(0, 0, 0);
