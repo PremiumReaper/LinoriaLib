@@ -2102,7 +2102,7 @@ do
             Library:AddToolTip(Info.Tooltip, DropdownOuter)
         end
 
-        local MAX_DROPDOWN_ITEMS = 30;
+        local MAX_DROPDOWN_ITEMS = 60;
 
         local ListOuter = Library:Create('Frame', {
             BorderColor3 = Color3.new(0, 0, 0);
